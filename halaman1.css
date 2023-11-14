@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(145deg, #ff7848 0, #ff5f43 25%, #f23c3c 50%, #e20037 75%, #d60037 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    /* opacity: 85%; */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.container a:hover {
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: inline-block;
+}
+
+#downloadExcel {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#downloadExcel:hover {
+    background-color: #45a049;
+}
